@@ -31,7 +31,7 @@ This is an application that interacts with users to evaluate logical operations 
 
 ## How to Run
 1. **Clone the repository** (or download the files):
-   - git clone https://github.com/katrina-l-hill/num_converter.git
+   - git clone https://github.com/katrina-l-hill/math_statements_app.git
    - cd into the repository directory
 2. **Run the Main program**:
    - run python app.py to run the program

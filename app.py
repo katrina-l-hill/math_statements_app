@@ -14,7 +14,6 @@ def implication(A, B):
 def biconditional(A, B):
     return A == B
 
-
 # Display results of logical operations based on user input
 def display_results(A, B):
     print(f"\nResults for A = {A} and B = {B}:")
@@ -26,7 +25,6 @@ def display_results(A, B):
     print(f"A IF AND ONLY IF B: {biconditional(A, B)}")
     print()
 
-
 # Generate a truth table for all possible values of A and B
 def truth_table():
     print("\nTruth Table:")
@@ -36,7 +34,6 @@ def truth_table():
         for B in [True, False]:
             print(f"{int(A)} | {int(B)} | {int(conjunction(A, B))} | {int(disjunction(A, B))} | {int(negation(A))} | {int(implication(A, B))} | {int(biconditional(A, B))}")
     print()
-
 
 # Main program to get user input and display results or truth table
 def main():
